@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+h1, h3 {
+    color: navajowhite;
+    text-align: center;
+}
+
+ul {
+    background-color: rebeccapurple;
+}
+
+li {
+    color: palegoldenrod;
+}
+
+p {
+    color: red;
+    background-color: aqua;
+}
