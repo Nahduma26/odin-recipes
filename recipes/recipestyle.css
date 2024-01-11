@@ -11,6 +11,10 @@ ul {
     background-color: rebeccapurple;
 }
 
+ol {
+    background-color: aliceblue;
+}
+
 li {
     color: palegoldenrod;
 }
