@@ -10,32 +10,82 @@
     font-weight: 300 800;
     font-style: italic;
   }
-body {
+
+  .food-image
+  {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid navajowhite;
+  }
+  body {
     margin: 0;
     background-color: hsl(0, 0%, 100%);
     color: hsl(0, 0%, 10%);
     line-height: 1.5;
     font-family: Raleway, "PT Sans", Calibri, Tahoma, sans-serif;
   }
-
-h1, h3 {
+  .description
+  {
     color: navajowhite;
+    border: 1px solid navajowhite;
+    background-color: rgb(128, 0, 32);
     text-align: center;
-}
+    margin: 8px auto;
+    width: 1000px;
+  }
+  .page
+  {
+    background: black;
 
-ul {
-    background-color: rebeccapurple;
-}
-
-ol {
-    background-color: aliceblue;
-}
-
-li {
-    color: palegoldenrod;
-}
-
-p {
-    color: red;
-    background-color: aqua;
-}
+    padding: 8px;
+  }
+  .title {
+      text-align: center;
+      color: navajowhite;
+      background-color: rgb(128, 0, 32);
+      margin: 8px auto;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      padding-right: 32px;
+      padding-left: 32px;
+      width: 800px;
+      border: 1px solid navajowhite;
+  }
+  .mini-title
+  {
+    text-align: center;
+      color: navajowhite;
+      background-color: rgb(128, 0, 32);
+      margin: 8px auto;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      padding-right: 32px;
+      padding-left: 32px;
+      width: 800px;
+      border: 1px solid navajowhite;
+  }
+  .ingredients, .steps {
+      text-align: center;
+      color: navajowhite;
+      background-color: rgb(128, 0, 32);
+      margin: 16px auto;
+      width: 800px;
+      list-style-type: none;
+      padding: 0;
+      border: 1px solid navajowhite;
+  }
+  
+  .list-item
+  {
+      padding: 8px 16px;
+      border-bottom: 1px solid navajowhite;
+      color: navajowhite;
+  }
+  
+  .list-item.last-item
+  {
+      border-bottom: none;
+      color: navajowhite
+  }
