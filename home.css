@@ -30,7 +30,7 @@
     transition: background-color 250ms;
     position: relative;
 }
-button:hover, button:focus-visible {
+.recipe-button:hover, .recipe-button:focus-visible {
     background: rgb(128, 0, 32);
 }
 /*
