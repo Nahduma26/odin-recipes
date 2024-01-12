@@ -19,12 +19,45 @@ body {
     line-height: 1.5;
     font-family: Raleway, "PT Sans", Calibri, Tahoma, sans-serif;
   }
-
-h1 {
+.page
+{
+  background: rgb(128, 0, 32);
+  margin: 8px auto;
+  padding: 8px;
+}
+.title {
     text-align: center;
     color: navajowhite;
+    background-color: black;
+    margin: 8px auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 32px;
+    padding-left: 32px;
+    width: 800px;
+    border: 1px solid navajowhite;
 }
 
-ul {
+.list {
     background-color: rebeccapurple;
+    text-align: center;
+    color: navajowhite;
+    background-color: black;
+    margin: 16px auto;
+    
+    width: 800px;
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid navajowhite;
+}
+
+.list-item
+{
+    padding: 8px 16px;
+    border-bottom: 1px solid navajowhite;
+}
+
+.list-item#last-item
+{
+    border-bottom: none;
 }
