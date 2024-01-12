@@ -1,3 +1,8 @@
+:root {
+    --clr-neon: hsl(317 100% 54%);
+    --clr-bg: hsl(323 21% 16%);
+}
+
 @font-face {
     font-family: Raleway;
     src: url('fonts/raleway/Raleway.woff2') format('woff2');
@@ -11,7 +16,42 @@
     font-weight: 300 800;
     font-style: italic;
   }
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.recipe-button{
+    color: navajowhite;
+    font: inherit;
+    padding: 0.75em 3em;
+    background: black;
+    border: 0.1em solid navajowhite;
+    border-radius: 100vw;
+    cursor: pointer;
+    transition: background-color 250ms;
+    position: relative;
+}
+button:hover, button:focus-visible {
+    background: rgb(128, 0, 32);
+}
+/*
+button > span
+{
+    position: absolute;
+    z-index: -1;
+    width: 33.333%;
+    height: 100%;
+    background: navajowhite;
+}
 
+button > :first-child {
+    left: 0;
+    top: 0;
+}
+
+button > :last-child {
+    left: 0;
+    top: 0;
+} */
 body {
     margin: 0;
     background-color: hsl(0, 0%, 100%);
@@ -59,6 +99,7 @@ body {
 .list-item
 {
     padding: 8px 16px;
+    list-style-type: none;
     border-bottom: 1px solid navajowhite;
 }
 
