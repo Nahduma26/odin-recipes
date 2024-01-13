@@ -47,8 +47,11 @@
     border: 1px solid navajowhite;
     background-color: rgb(128, 0, 32);
     text-align: center;
-    margin: 8px auto;
+    margin-left: 199px;
     width: 1000px;
+    margin-right: 199px;
+    margin-top: 0px;
+    margin-bottom: 16px;
   }
   .page
   {
@@ -71,25 +74,34 @@
   .mini-title
   {
     text-align: center;
-      color: navajowhite;
-      background-color: rgb(128, 0, 32);
-      margin: 8px auto;
-      padding-top: 16px;
-      padding-bottom: 16px;
-      padding-right: 32px;
-      padding-left: 32px;
-      width: 800px;
-      border: 1px solid navajowhite;
+color: navajowhite;
+background-color: rgb(128, 0, 32);
+/* margin: 8px auto; */
+padding-top: 16px;
+padding-bottom: 16px;
+padding-right: 32px;
+padding-left: 32px;
+width: 800px;
+border: 1px solid navajowhite;
+margin-right: 267px;
+margin-top: 8px auto;
+margin-left: 267px;
+margin-top: 20px;
+margin-bottom: auto;
   }
   .ingredients, .steps {
-      text-align: center;
-      color: navajowhite;
-      background-color: rgb(128, 0, 32);
-      margin: 16px auto;
-      width: 800px;
-      list-style-type: none;
-      padding: 0;
-      border: 1px solid navajowhite;
+    text-align: center;
+    color: navajowhite;
+    background-color: rgb(128, 0, 32);
+    /* margin: 16px auto; */
+    width: 800px;
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid navajowhite;
+    margin-left: 299px;
+    margin-right: 299px;
+    margin-top: 0px;
+    margin-bottom: 16px;
   }
   
   .list-item
